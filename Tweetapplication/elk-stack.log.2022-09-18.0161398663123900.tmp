@@ -1,0 +1,370 @@
+2022-09-18 14:20:01.923  INFO 14936 --- [restartedMain] com.tweetapp.TweetAppApplication         : Starting TweetAppApplication using Java 17.0.2 on DESKTOP-8LQMS9O with PID 14936 (C:\Users\DELL\Downloads\Tweetapplication\target\classes started by DELL in C:\Users\DELL\Downloads\Tweetapplication)
+2022-09-18 14:20:01.931  INFO 14936 --- [restartedMain] com.tweetapp.TweetAppApplication         : No active profile set, falling back to default profiles: default
+2022-09-18 14:20:02.066  INFO 14936 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-18 14:20:02.067  INFO 14936 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-18 14:20:11.530  INFO 14936 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-09-18 14:20:11.558  INFO 14936 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-18 14:20:11.559  INFO 14936 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-09-18 14:20:11.875  INFO 14936 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/v1.0]      : Initializing Spring embedded WebApplicationContext
+2022-09-18 14:20:11.878  INFO 14936 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9809 ms
+2022-09-18 14:20:31.884  INFO 14936 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-09-18 14:20:34.343  INFO 14936 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4d6d2158, org.springframework.security.web.context.SecurityContextPersistenceFilter@144275cd, org.springframework.security.web.header.HeaderWriterFilter@174d2dfc, org.springframework.security.web.authentication.logout.LogoutFilter@6c03933c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@70cbaf54, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@567c32d8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4fcc0342, org.springframework.security.web.session.SessionManagementFilter@680a8c94, org.springframework.security.web.access.ExceptionTranslationFilter@6df1483f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@8d58638]
+2022-09-18 14:20:34.410  INFO 14936 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-18 14:20:34.732  INFO 14936 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-18 14:20:34.827  INFO 14936 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-18 14:20:35.506  INFO 14936 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api/v1.0'
+2022-09-18 14:20:35.508  INFO 14936 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-09-18 14:20:35.588  INFO 14936 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-09-18 14:20:35.754  INFO 14936 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-09-18 14:20:36.629  INFO 14936 --- [restartedMain] com.tweetapp.TweetAppApplication         : Started TweetAppApplication in 36.386 seconds (JVM running for 45.183)
+2022-09-18 14:20:38.345  INFO 14936 --- [RMI TCP Connection(5)-127.0.0.1] o.a.c.c.C.[.[localhost].[/api/v1.0]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-18 14:20:38.346  INFO 14936 --- [RMI TCP Connection(5)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-18 14:20:38.352  INFO 14936 --- [RMI TCP Connection(5)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2022-09-18 14:27:29.631  INFO 14936 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-18 14:27:30.538  INFO 14936 --- [restartedMain] com.tweetapp.TweetAppApplication         : Starting TweetAppApplication using Java 17.0.2 on DESKTOP-8LQMS9O with PID 14936 (C:\Users\DELL\Downloads\Tweetapplication\target\classes started by DELL in C:\Users\DELL\Downloads\Tweetapplication)
+2022-09-18 14:27:30.539  INFO 14936 --- [restartedMain] com.tweetapp.TweetAppApplication         : No active profile set, falling back to default profiles: default
+2022-09-18 14:27:33.347  INFO 14936 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-09-18 14:27:33.352  INFO 14936 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-18 14:27:33.353  INFO 14936 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-09-18 14:27:33.403  INFO 14936 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/v1.0]      : Initializing Spring embedded WebApplicationContext
+2022-09-18 14:27:33.404  INFO 14936 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2839 ms
+2022-09-18 14:27:34.125  INFO 14936 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-09-18 14:27:34.223  INFO 14936 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4a720bd, org.springframework.security.web.context.SecurityContextPersistenceFilter@11a8b1b0, org.springframework.security.web.header.HeaderWriterFilter@57395926, org.springframework.security.web.authentication.logout.LogoutFilter@4a96ac47, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16b8cad9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@bd55141, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d4fd4c9, org.springframework.security.web.session.SessionManagementFilter@7036afff, org.springframework.security.web.access.ExceptionTranslationFilter@30e6fe32, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2ea12b4b]
+2022-09-18 14:27:34.241  INFO 14936 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-18 14:27:34.310  INFO 14936 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-18 14:27:34.322  INFO 14936 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-18 14:27:34.446  INFO 14936 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api/v1.0'
+2022-09-18 14:27:34.448  INFO 14936 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-09-18 14:27:34.451  INFO 14936 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-09-18 14:27:34.464  INFO 14936 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-09-18 14:27:34.637  INFO 14936 --- [restartedMain] com.tweetapp.TweetAppApplication         : Started TweetAppApplication in 4.28 seconds (JVM running for 463.191)
+2022-09-18 14:27:34.642  INFO 14936 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-18 14:35:46.865  INFO 14936 --- [http-nio-8082-exec-1] o.a.c.c.C.[.[localhost].[/api/v1.0]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-18 14:35:46.865  INFO 14936 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-18 14:35:46.869  INFO 14936 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-09-18 14:44:55.071  INFO 14936 --- [RMI TCP Connection(44)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-09-18 14:44:55.153  INFO 14936 --- [RMI TCP Connection(44)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-18 14:47:58.190  INFO 7864 --- [restartedMain] com.tweetapp.TweetAppApplication         : Starting TweetAppApplication using Java 17.0.2 on DESKTOP-8LQMS9O with PID 7864 (C:\Users\DELL\Downloads\Tweetapplication\target\classes started by DELL in C:\Users\DELL\Downloads\Tweetapplication)
+2022-09-18 14:47:58.195  INFO 7864 --- [restartedMain] com.tweetapp.TweetAppApplication         : No active profile set, falling back to default profiles: default
+2022-09-18 14:47:58.377  INFO 7864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-18 14:47:58.379  INFO 7864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-18 14:48:02.533  INFO 7864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-09-18 14:48:02.556  INFO 7864 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-18 14:48:02.557  INFO 7864 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-09-18 14:48:02.720  INFO 7864 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/v1.0]      : Initializing Spring embedded WebApplicationContext
+2022-09-18 14:48:02.721  INFO 7864 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4339 ms
+2022-09-18 14:48:04.743  INFO 7864 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-09-18 14:48:05.705  INFO 7864 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@61a93ec2, org.springframework.security.web.context.SecurityContextPersistenceFilter@71d6799f, org.springframework.security.web.header.HeaderWriterFilter@2f00b403, org.springframework.security.web.authentication.logout.LogoutFilter@3cffe992, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e30d966, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@17c627f8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@21f2c748, org.springframework.security.web.session.SessionManagementFilter@34578c6f, org.springframework.security.web.access.ExceptionTranslationFilter@76d487ea, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5a4ab5cc]
+2022-09-18 14:48:05.743  INFO 7864 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-18 14:48:05.878  INFO 7864 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-18 14:48:05.950  INFO 7864 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-18 14:48:06.473  INFO 7864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api/v1.0'
+2022-09-18 14:48:06.475  INFO 7864 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-09-18 14:48:06.519  INFO 7864 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-09-18 14:48:06.602  INFO 7864 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-09-18 14:48:06.937  INFO 7864 --- [restartedMain] com.tweetapp.TweetAppApplication         : Started TweetAppApplication in 9.486 seconds (JVM running for 11.441)
+2022-09-18 14:48:08.322  INFO 7864 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[.[localhost].[/api/v1.0]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-18 14:48:08.323  INFO 7864 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-18 14:48:08.325  INFO 7864 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-18 22:22:17.578  INFO 7864 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-18 22:22:18.971  INFO 7864 --- [restartedMain] com.tweetapp.TweetAppApplication         : Starting TweetAppApplication using Java 17.0.2 on DESKTOP-8LQMS9O with PID 7864 (C:\Users\DELL\Downloads\Tweetapplication\target\classes started by DELL in C:\Users\DELL\Downloads\Tweetapplication)
+2022-09-18 22:22:18.971  INFO 7864 --- [restartedMain] com.tweetapp.TweetAppApplication         : No active profile set, falling back to default profiles: default
+2022-09-18 22:22:20.644  INFO 7864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-09-18 22:22:20.646  INFO 7864 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-18 22:22:20.646  INFO 7864 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-09-18 22:22:20.684  INFO 7864 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/v1.0]      : Initializing Spring embedded WebApplicationContext
+2022-09-18 22:22:20.684  INFO 7864 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1704 ms
+2022-09-18 22:22:21.180  INFO 7864 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-09-18 22:22:21.218  INFO 7864 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-18 22:22:21.245  INFO 7864 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c90babf, org.springframework.security.web.context.SecurityContextPersistenceFilter@1a1944b, org.springframework.security.web.header.HeaderWriterFilter@7629bad6, org.springframework.security.web.authentication.logout.LogoutFilter@69b01354, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@621d3823, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5959d1bc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67726a17, org.springframework.security.web.session.SessionManagementFilter@472e251b, org.springframework.security.web.access.ExceptionTranslationFilter@77028baf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@353a5cfb]
+2022-09-18 22:22:21.327  INFO 7864 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-18 22:22:21.336  INFO 7864 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-18 22:22:21.598  INFO 7864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api/v1.0'
+2022-09-18 22:22:21.599  INFO 7864 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-09-18 22:22:21.601  WARN 7864 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.IllegalStateException: Multiple Dockets with the same group name are not supported. The following duplicate groups were discovered. default
+2022-09-18 22:22:21.604  INFO 7864 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-18 22:22:21.634  INFO 7864 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-18 22:22:21.661  INFO 7864 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-09-18 22:22:21.747 ERROR 7864 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.IllegalStateException: Multiple Dockets with the same group name are not supported. The following duplicate groups were discovered. default
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.6.jar:5.3.6]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) ~[spring-boot-2.4.5.jar:2.4.5]
+	at com.tweetapp.TweetAppApplication.main(TweetAppApplication.java:21) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.4.5.jar:2.4.5]
+Caused by: java.lang.IllegalStateException: Multiple Dockets with the same group name are not supported. The following duplicate groups were discovered. default
+	at springfox.documentation.spring.web.plugins.DuplicateGroupsDetector.ensureNoDuplicateGroups(DuplicateGroupsDetector.java:45) ~[springfox-spring-web-2.9.2.jar:null]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsManager.documentationPlugins(DocumentationPluginsManager.java:97) ~[springfox-spring-web-2.9.2.jar:null]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:162) ~[springfox-spring-web-2.9.2.jar:null]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.6.jar:5.3.6]
+	... 20 common frames omitted
+
+2022-09-18 22:23:06.721  INFO 7864 --- [restartedMain] com.tweetapp.TweetAppApplication         : Starting TweetAppApplication using Java 17.0.2 on DESKTOP-8LQMS9O with PID 7864 (C:\Users\DELL\Downloads\Tweetapplication\target\classes started by DELL in C:\Users\DELL\Downloads\Tweetapplication)
+2022-09-18 22:23:06.722  INFO 7864 --- [restartedMain] com.tweetapp.TweetAppApplication         : No active profile set, falling back to default profiles: default
+2022-09-18 22:23:07.653  INFO 7864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-09-18 22:23:07.654  INFO 7864 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-18 22:23:07.655  INFO 7864 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-09-18 22:23:07.688  INFO 7864 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/v1.0]      : Initializing Spring embedded WebApplicationContext
+2022-09-18 22:23:07.689  INFO 7864 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 956 ms
+2022-09-18 22:23:07.989  INFO 7864 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-09-18 22:23:08.049  INFO 7864 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-18 22:23:08.072  INFO 7864 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3bbf114c, org.springframework.security.web.context.SecurityContextPersistenceFilter@4f4bf578, org.springframework.security.web.header.HeaderWriterFilter@463e522b, org.springframework.security.web.authentication.logout.LogoutFilter@61c26634, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@d3ed35a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@392567dc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@696cd23, org.springframework.security.web.session.SessionManagementFilter@3d0eaa25, org.springframework.security.web.access.ExceptionTranslationFilter@6ab50053, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6af672c6]
+2022-09-18 22:23:08.190  INFO 7864 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-18 22:23:08.200  INFO 7864 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-18 22:23:08.338  INFO 7864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api/v1.0'
+2022-09-18 22:23:08.345  INFO 7864 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-09-18 22:23:08.351  WARN 7864 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.IllegalStateException: Multiple Dockets with the same group name are not supported. The following duplicate groups were discovered. default
+2022-09-18 22:23:08.361  INFO 7864 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-18 22:23:08.393  INFO 7864 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-18 22:23:08.412  INFO 7864 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-09-18 22:23:08.418 ERROR 7864 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.IllegalStateException: Multiple Dockets with the same group name are not supported. The following duplicate groups were discovered. default
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.6.jar:5.3.6]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) ~[spring-boot-2.4.5.jar:2.4.5]
+	at com.tweetapp.TweetAppApplication.main(TweetAppApplication.java:21) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.4.5.jar:2.4.5]
+Caused by: java.lang.IllegalStateException: Multiple Dockets with the same group name are not supported. The following duplicate groups were discovered. default
+	at springfox.documentation.spring.web.plugins.DuplicateGroupsDetector.ensureNoDuplicateGroups(DuplicateGroupsDetector.java:45) ~[springfox-spring-web-2.9.2.jar:null]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsManager.documentationPlugins(DocumentationPluginsManager.java:97) ~[springfox-spring-web-2.9.2.jar:null]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:162) ~[springfox-spring-web-2.9.2.jar:null]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.6.jar:5.3.6]
+	... 20 common frames omitted
+
+2022-09-18 22:24:36.524  INFO 7864 --- [restartedMain] com.tweetapp.TweetAppApplication         : Starting TweetAppApplication using Java 17.0.2 on DESKTOP-8LQMS9O with PID 7864 (C:\Users\DELL\Downloads\Tweetapplication\target\classes started by DELL in C:\Users\DELL\Downloads\Tweetapplication)
+2022-09-18 22:24:36.525  INFO 7864 --- [restartedMain] com.tweetapp.TweetAppApplication         : No active profile set, falling back to default profiles: default
+2022-09-18 22:24:37.416  INFO 7864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-09-18 22:24:37.420  INFO 7864 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-18 22:24:37.431  INFO 7864 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-09-18 22:24:37.466  INFO 7864 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/v1.0]      : Initializing Spring embedded WebApplicationContext
+2022-09-18 22:24:37.466  INFO 7864 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 935 ms
+2022-09-18 22:24:37.810  INFO 7864 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-09-18 22:24:37.855  INFO 7864 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@49a3f3be, org.springframework.security.web.context.SecurityContextPersistenceFilter@7483fa33, org.springframework.security.web.header.HeaderWriterFilter@3640300a, org.springframework.security.web.authentication.logout.LogoutFilter@2037c6c8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@345067d4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@327d134, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7b3f7e9e, org.springframework.security.web.session.SessionManagementFilter@3b5e67e7, org.springframework.security.web.access.ExceptionTranslationFilter@41d02867, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a38dcdc]
+2022-09-18 22:24:37.866  INFO 7864 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-18 22:24:37.919  INFO 7864 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-18 22:24:37.929  INFO 7864 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-18 22:24:38.057  INFO 7864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api/v1.0'
+2022-09-18 22:24:38.058  INFO 7864 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-09-18 22:24:38.061  INFO 7864 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-09-18 22:24:38.081  INFO 7864 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-09-18 22:24:38.247  INFO 7864 --- [restartedMain] com.tweetapp.TweetAppApplication         : Started TweetAppApplication in 1.761 seconds (JVM running for 27406.117)
+2022-09-18 22:24:38.251  INFO 7864 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-18 22:25:16.703  INFO 7864 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-18 22:25:16.910  INFO 7864 --- [restartedMain] com.tweetapp.TweetAppApplication         : Starting TweetAppApplication using Java 17.0.2 on DESKTOP-8LQMS9O with PID 7864 (C:\Users\DELL\Downloads\Tweetapplication\target\classes started by DELL in C:\Users\DELL\Downloads\Tweetapplication)
+2022-09-18 22:25:16.911  INFO 7864 --- [restartedMain] com.tweetapp.TweetAppApplication         : No active profile set, falling back to default profiles: default
+2022-09-18 22:25:17.800  INFO 7864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-09-18 22:25:17.801  INFO 7864 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-18 22:25:17.802  INFO 7864 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-09-18 22:25:17.834  INFO 7864 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/v1.0]      : Initializing Spring embedded WebApplicationContext
+2022-09-18 22:25:17.834  INFO 7864 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 917 ms
+2022-09-18 22:25:18.181  INFO 7864 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-09-18 22:25:18.228  INFO 7864 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9b60bfb, org.springframework.security.web.context.SecurityContextPersistenceFilter@3919dd9a, org.springframework.security.web.header.HeaderWriterFilter@6da07def, org.springframework.security.web.authentication.logout.LogoutFilter@1989f706, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3b5379b9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@55f22439, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1912a068, org.springframework.security.web.session.SessionManagementFilter@22f32639, org.springframework.security.web.access.ExceptionTranslationFilter@3b5723fb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@504771b1]
+2022-09-18 22:25:18.238  INFO 7864 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-18 22:25:18.286  INFO 7864 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-18 22:25:18.309  INFO 7864 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-18 22:25:18.464  INFO 7864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api/v1.0'
+2022-09-18 22:25:18.474  INFO 7864 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-09-18 22:25:18.481  INFO 7864 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-09-18 22:25:18.491  INFO 7864 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-09-18 22:25:18.609  INFO 7864 --- [restartedMain] com.tweetapp.TweetAppApplication         : Started TweetAppApplication in 1.75 seconds (JVM running for 27446.48)
+2022-09-18 22:25:18.618  INFO 7864 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-18 23:22:23.579  INFO 7864 --- [RMI TCP Connection(162)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-09-18 23:22:24.390  INFO 7864 --- [RMI TCP Connection(162)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-18 23:23:30.934  INFO 16304 --- [restartedMain] com.tweetapp.TweetAppApplication         : Starting TweetAppApplication using Java 17.0.2 on DESKTOP-8LQMS9O with PID 16304 (C:\Users\DELL\Downloads\Tweetapplication\target\classes started by DELL in C:\Users\DELL\Downloads\Tweetapplication)
+2022-09-18 23:23:30.943  INFO 16304 --- [restartedMain] com.tweetapp.TweetAppApplication         : No active profile set, falling back to default profiles: default
+2022-09-18 23:23:31.031  INFO 16304 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-18 23:23:31.031  INFO 16304 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-18 23:23:33.465  INFO 16304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-09-18 23:23:33.481  INFO 16304 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-18 23:23:33.481  INFO 16304 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-09-18 23:23:33.586  INFO 16304 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/v1.0]      : Initializing Spring embedded WebApplicationContext
+2022-09-18 23:23:33.587  INFO 16304 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2555 ms
+2022-09-18 23:23:35.004  INFO 16304 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-09-18 23:23:35.266  INFO 16304 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b6a959d, org.springframework.security.web.context.SecurityContextPersistenceFilter@51e0c276, org.springframework.security.web.header.HeaderWriterFilter@779bcb56, org.springframework.security.web.authentication.logout.LogoutFilter@240c598f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@39d4a8de, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@19514423, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@62e7ea62, org.springframework.security.web.session.SessionManagementFilter@1ff150b1, org.springframework.security.web.access.ExceptionTranslationFilter@582b7eca, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1b2e3600]
+2022-09-18 23:23:35.301  INFO 16304 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-18 23:23:35.416  INFO 16304 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-18 23:23:35.468  INFO 16304 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-18 23:23:35.754  INFO 16304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api/v1.0'
+2022-09-18 23:23:35.756  INFO 16304 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-09-18 23:23:35.788  INFO 16304 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-09-18 23:23:35.845  INFO 16304 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-09-18 23:23:36.092  INFO 16304 --- [restartedMain] com.tweetapp.TweetAppApplication         : Started TweetAppApplication in 5.856 seconds (JVM running for 7.436)
+2022-09-18 23:23:37.805  INFO 16304 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[.[localhost].[/api/v1.0]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-18 23:23:37.806  INFO 16304 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-18 23:23:37.807  INFO 16304 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-18 23:26:20.593  INFO 16304 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-18 23:26:20.774  INFO 16304 --- [restartedMain] com.tweetapp.TweetAppApplication         : Starting TweetAppApplication using Java 17.0.2 on DESKTOP-8LQMS9O with PID 16304 (C:\Users\DELL\Downloads\Tweetapplication\target\classes started by DELL in C:\Users\DELL\Downloads\Tweetapplication)
+2022-09-18 23:26:20.775  INFO 16304 --- [restartedMain] com.tweetapp.TweetAppApplication         : No active profile set, falling back to default profiles: default
+2022-09-18 23:26:21.506  INFO 16304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-09-18 23:26:21.507  INFO 16304 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-18 23:26:21.508  INFO 16304 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-09-18 23:26:21.531  INFO 16304 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/v1.0]      : Initializing Spring embedded WebApplicationContext
+2022-09-18 23:26:21.531  INFO 16304 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 753 ms
+2022-09-18 23:26:21.750  INFO 16304 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-09-18 23:26:21.774  INFO 16304 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@462d8e10, org.springframework.security.web.context.SecurityContextPersistenceFilter@2daacbef, org.springframework.security.web.header.HeaderWriterFilter@7f7dddc4, org.springframework.security.web.authentication.logout.LogoutFilter@2cdbc16f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d98d38c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4c1ab606, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28bc456a, org.springframework.security.web.session.SessionManagementFilter@16e1a6aa, org.springframework.security.web.access.ExceptionTranslationFilter@fe1789, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4f3d47bf]
+2022-09-18 23:26:21.783  INFO 16304 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-18 23:26:21.813  INFO 16304 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-18 23:26:21.819  INFO 16304 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-18 23:26:21.888  INFO 16304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api/v1.0'
+2022-09-18 23:26:21.890  INFO 16304 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-09-18 23:26:21.892  INFO 16304 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-09-18 23:26:21.910  INFO 16304 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-09-18 23:26:22.004  INFO 16304 --- [restartedMain] com.tweetapp.TweetAppApplication         : Started TweetAppApplication in 1.27 seconds (JVM running for 173.349)
+2022-09-18 23:26:22.008  INFO 16304 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-18 23:26:29.520  INFO 16304 --- [http-nio-8082-exec-1] o.a.c.c.C.[.[localhost].[/api/v1.0]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-18 23:26:29.522  INFO 16304 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-18 23:26:29.526  INFO 16304 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-09-18 23:27:18.002  INFO 16304 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-18 23:28:10.964  INFO 16304 --- [restartedMain] com.tweetapp.TweetAppApplication         : Starting TweetAppApplication using Java 17.0.2 on DESKTOP-8LQMS9O with PID 16304 (C:\Users\DELL\Downloads\Tweetapplication\target\classes started by DELL in C:\Users\DELL\Downloads\Tweetapplication)
+2022-09-18 23:28:10.965  INFO 16304 --- [restartedMain] com.tweetapp.TweetAppApplication         : No active profile set, falling back to default profiles: default
+2022-09-18 23:28:11.570  INFO 16304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-09-18 23:28:11.571  INFO 16304 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-18 23:28:11.571  INFO 16304 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2022-09-18 23:28:11.591  INFO 16304 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/v1.0]      : Initializing Spring embedded WebApplicationContext
+2022-09-18 23:28:11.591  INFO 16304 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 619 ms
+2022-09-18 23:28:11.787  INFO 16304 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-09-18 23:28:11.818  INFO 16304 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5e2a7545, org.springframework.security.web.context.SecurityContextPersistenceFilter@78dc53c3, org.springframework.security.web.header.HeaderWriterFilter@59fb616e, org.springframework.security.web.authentication.logout.LogoutFilter@53ca8050, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@79b04a95, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7bc2a4dc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1dbfeff1, org.springframework.security.web.session.SessionManagementFilter@41ee6197, org.springframework.security.web.access.ExceptionTranslationFilter@730dba6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@75302e7]
+2022-09-18 23:28:11.827  INFO 16304 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-18 23:28:11.862  INFO 16304 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-18 23:28:11.868  INFO 16304 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-18 23:28:11.933  INFO 16304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api/v1.0'
+2022-09-18 23:28:11.935  INFO 16304 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-09-18 23:28:11.937  INFO 16304 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-09-18 23:28:11.949  INFO 16304 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-09-18 23:28:12.033  INFO 16304 --- [restartedMain] com.tweetapp.TweetAppApplication         : Started TweetAppApplication in 1.138 seconds (JVM running for 283.378)
+2022-09-18 23:28:12.037  INFO 16304 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-09-18 23:28:25.269  INFO 16304 --- [http-nio-8082-exec-1] o.a.c.c.C.[.[localhost].[/api/v1.0]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-18 23:28:25.270  INFO 16304 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-18 23:28:25.276  INFO 16304 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2022-09-18 23:29:39.183 ERROR 16304 --- [http-nio-8082-exec-2] o.a.c.c.C.[.[.[.0].[dispatcherServlet]   : Servlet.service() for servlet [dispatcherServlet] in context with path [/api/v1.0] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "com.tweetapp.entities.UserModel.getPassword()" because "checkUser" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "com.tweetapp.entities.UserModel.getPassword()" because "checkUser" is null
+	at com.tweetapp.controllers.AuthController.authenticateClient(AuthController.java:51) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.45.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.45.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93) ~[spring-boot-actuator-2.4.5.jar:2.4.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
